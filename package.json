@@ -1,0 +1,23 @@
+{
+  "name": "files.viddiaz.com",
+  "version": "1.0.0",
+  "description": "Handles uploading and viewing of files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/server.js"
+  },
+  "keywords": [],
+  "author": "David Diaz <d@viddiaz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "express-fileupload": "0.2.0",
+    "randomstring": "1.1.5",
+    "better-sqlite3": "4.0.2",
+    "body-parser": "1.17.2"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.28"
+  }
+}

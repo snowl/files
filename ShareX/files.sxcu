@@ -1,0 +1,16 @@
+﻿{
+  "Name": "files",
+  "DestinationType": "None",
+  "RequestType": "POST",
+  "RequestURL": "https://your.url/upload",
+  "FileFormName": "upload",
+  "Arguments": {
+    "auth": "your-auth-token"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    ".*"
+  ],
+  "URL": "http://your.url/$json:file$",
+  "DeletionURL": "http://your.url/delete/$json:deletion$"
+}
