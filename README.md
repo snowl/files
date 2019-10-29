@@ -80,4 +80,4 @@ WantedBy=multi-user.target
 
 Replacing `location/` with the location, and `your-username` with your username.
 
-You can now run `systemctl start files` and the server should start in the background and on startup. Yay!
+You can now run `systemctl start files` and the server should start in the background, and running `systemctl enable files` to start on startup. Yay!
